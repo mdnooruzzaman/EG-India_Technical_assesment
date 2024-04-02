@@ -7,7 +7,6 @@ interface AutoCompleteInterface{
     placeholder: string;
 }
 
-
 const SearchInput: React.FC<AutoCompleteInterface> = ({style, placeholder}) => {
  const {value, options, onChange, onSelect, getPanelValue, setOptions} = useArticlesData()
 

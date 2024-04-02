@@ -10,7 +10,6 @@ interface CustomButtonPropsI {
   }
 
 const BasicButton: React.FC<CustomButtonPropsI> = ({title  , icon , onClick, type, size} : any) => {
-    console.log('hi')
     return (
         <>
         <Tooltip title={title}>

@@ -11,8 +11,7 @@ interface DetailsDrawerPropsI {
 }
 const DetailsDrawer: React.FC<DetailsDrawerPropsI> = ({drawerTitle, detailsOfArticles}) => {
   const {open, onClose, isDetailsLoading, detailsError} = useArticlesData()
-    console.log('drawer open', open)
-    console.log(detailsOfArticles)
+   
   return (
       <Drawer title={drawerTitle} onClose={onClose} open={open}>
         {!detailsError ? 

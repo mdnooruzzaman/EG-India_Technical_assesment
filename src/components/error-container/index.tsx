@@ -6,9 +6,11 @@ interface ErrorContainerPropsI {
     message: string;
 }
 const ErrorContainer:React.FC<ErrorContainerPropsI> = ({message}) => {
+
     const handleReload = () => {
         window.location.reload()
     }
+    
     return(
         <div className="error_container">
             <p className="error_message">{message}</p>

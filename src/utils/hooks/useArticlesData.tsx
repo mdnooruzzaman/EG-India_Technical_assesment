@@ -32,8 +32,7 @@ const HandleArticlesData =  () => {
             setIsListLoading(false)
             setListOfArticles(response?.data)
         }catch(err){
-            const errorResponse: any = err
-            console.log('error in list of articles',errorResponse)
+            console.log('error in list of articles', err)
             setIsListLoading(false)
             setListError(true)
         }
@@ -87,7 +86,6 @@ const HandleArticlesData =  () => {
 
     const showDrawer = () => {
         setOpen(true);
-        console.log('open', open)
     };
 
     const onClose = () => {

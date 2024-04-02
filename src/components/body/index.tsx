@@ -15,6 +15,7 @@ const Body: React.FC = () => {
         showDrawer()
         getDetailsOfArticles(parseInt(id))
     }
+    
     return(
         <div className='body_container'>
             {!listError ? 
