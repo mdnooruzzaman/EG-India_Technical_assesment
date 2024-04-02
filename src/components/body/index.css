@@ -1,0 +1,7 @@
+.body_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(254, 253, 253);
+    padding: 16px;
+}

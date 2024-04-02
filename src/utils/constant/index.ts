@@ -1,0 +1,1 @@
+export const API_SERVER_URL = process.env.BASE_API_SERVER_URL || 'https://ps-dev-1-partnergateway.patientsky.dev';
