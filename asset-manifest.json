@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/EG-India_Technical_assesment/static/css/main.4c0e237b.css",
+    "main.js": "/EG-India_Technical_assesment/static/js/main.09d1dd98.js",
+    "static/js/453.f3df1f06.chunk.js": "/EG-India_Technical_assesment/static/js/453.f3df1f06.chunk.js",
+    "index.html": "/EG-India_Technical_assesment/index.html",
+    "main.4c0e237b.css.map": "/EG-India_Technical_assesment/static/css/main.4c0e237b.css.map",
+    "main.09d1dd98.js.map": "/EG-India_Technical_assesment/static/js/main.09d1dd98.js.map",
+    "453.f3df1f06.chunk.js.map": "/EG-India_Technical_assesment/static/js/453.f3df1f06.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c0e237b.css",
+    "static/js/main.09d1dd98.js"
+  ]
+}
